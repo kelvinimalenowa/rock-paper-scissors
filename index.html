@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>RPS-3000 WORLD CHAMPIONSHIP</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <section class="header">
+    <h1>RPS-3000 WORLD CHAMPIONSHIP</h1>
+
+    <p>You've been challenged to a game of rock, paper, scissors. Will you accept?</p>
+  </section>
+
+  <div class="scoreboard">
+    <h2>Scoreboard</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td id="humanScore">0</td>
+          <td id="computerScore">0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>You</th>
+          <th>Bot</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <section class="move-container">
+    <h2>Choose Wisely</h2>
+    <div class="select">
+      <button id="rock" class="button">🪨</button>
+      <button id="paper" class="button">📝</button>
+      <button id="scissors" class="button">✂️</button>
+    </div>
+  </section>
+
+
+  <div id="status"></div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
