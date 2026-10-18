@@ -2,6 +2,8 @@
 
 A simple Rock Paper Scissors game built with JavaScript. Choose your move, play against the computer, and see who wins.
 
+[Play Rock Paper Scissors](https://kelvinimalenowa.github.io/rock-paper-scissors/)
+
 ## 📸 Preview
 
 ![Rock Paper Scissors](assets/mockup.png)
